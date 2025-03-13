@@ -1,6 +1,7 @@
 module github.com/doomsday-project/doomsday
 
 go 1.22
+toolchain go1.23.7
 
 require (
 	code.cloudfoundry.org/credhub-cli v0.0.0-20240527130318-e567403de1b6
@@ -11,7 +12,7 @@ require (
 	github.com/robfig/cron v1.2.0
 	github.com/starkandwayne/goutils v0.0.0-20190115202530-896b8a6904be
 	github.com/thomasmitchell/go-shout v0.0.0-20200117221442-ad6c1a8d1669
-	golang.org/x/crypto v0.31.0
+	golang.org/x/crypto v0.35.0
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 	gopkg.in/yaml.v2 v2.4.0
 )
@@ -31,7 +32,7 @@ require (
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
-	golang.org/x/net v0.26.0 // indirect
-	golang.org/x/sys v0.28.0 // indirect
-	golang.org/x/term v0.27.0 // indirect
+	golang.org/x/net v0.36.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/term v0.29.0 // indirect
 )
